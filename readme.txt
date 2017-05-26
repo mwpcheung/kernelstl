@@ -9,7 +9,11 @@
 	2. wdk7600 for x86 x64
 	3. win8.1  for x86 x64
 	4. win10 for x86 x64
-8. 作者英文不好，看不懂就找google  
+8. size_t 的问题， x64下 size_t 为64位， 但是被我定义为了32位，我也不知道怎么修复这个问题。
+如果要和你的代码冲突， 请将我的size_t 加namespace。 实在不行就找耶稣吧。
+last. 作者英文不好，看不懂就找google  
 [the Author's English is not good, if u do not understand then try to ask google]
+
+
 
 
