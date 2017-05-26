@@ -1,0 +1,12 @@
+#pragma once
+
+
+// 这些函数是以c++的符号导出的.
+void * __cdecl operator new(size_t sz);
+void * __cdecl operator new[](size_t sz);
+void __cdecl operator delete(void *ptr, size_t sz);
+void __cdecl operator delete(void *ptr);
+void __cdecl operator delete[](void *ptr);
+void __cdecl operator delete[](void *ptr, size_t sz);
+void* __cdecl operator new(size_t sz, void*p);
+
